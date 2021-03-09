@@ -8,4 +8,6 @@ It will consist all the basic music controls, basically when an user enters some
 the machine learning model and the model will process the output mood (i.e. Happy, Romantic), all this output will be processed locally, on the browser itself, so there will be no
 privacy concerns. NodeJs server will serve as backend and will stream music either through http or web socket protocol through mongoDB database.
 
+Read the article about open source contribution - https://ayush-addhyan.medium.com/how-to-contribute-to-open-source-d4e6bded1770
+
 
