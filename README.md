@@ -21,10 +21,10 @@ privacy concerns. NodeJs server will serve as backend and will stream music eith
 ## Table Of Contents
 
 [How To Contribute](https://ayush-addhyan.medium.com/how-to-contribute-to-open-source-d4e6bded1770 "How To Contribute")
-[Frontend FlowChart](/Documentation/FrontEndFlowChart.md "Frontend FlowChart")
-[Backend FlowChart](/Documentation/BackendFlowChart.md "Backend FlowChart")
-[Project FlowChart](/Documentation/ProjectFlowChart.md "Project FlowChart")
-[Frontend Setup](/Documentation/FrontEndSetup.md "Frontend Setup")
+[Frontend FlowChart](/Documentation/FrontEndFlowChart.md "Frontend FlowChart")<br>
+[Backend FlowChart](/Documentation/BackendFlowChart.md "Backend FlowChart")<br>
+[Project FlowChart](/Documentation/ProjectFlowChart.md "Project FlowChart")<br>
+[Frontend Setup](/Documentation/FrontEndSetup.md "Frontend Setup")<br>
 
 
 
