@@ -1,4 +1,4 @@
-<div align="center"> <img align="center" alt="Chords" src="Resources\Logos\icon128.png" height='150' width='350'></div>
+<div align="center"> <img align="center" alt="Chords" src="Resources\Logos\Main-Logo.png" height='500' width='500'></div>
 
 # Chords
 
@@ -6,7 +6,9 @@
 
 ## Technology Stack used:
 
-![Main-Logo](https://user-images.githubusercontent.com/52379890/110642398-fe0b3b00-81d8-11eb-9f52-1f73f630db77.png)
+
+<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>  <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+<img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/><img src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
 
 
 ## About the project
@@ -20,5 +22,3 @@ privacy concerns. NodeJs server will serve as backend and will stream music eith
 ## Resources
 
 Read the article about open source contribution - https://ayush-addhyan.medium.com/how-to-contribute-to-open-source-d4e6bded1770
-
-
