@@ -2,7 +2,9 @@
 
 # Chords
 
- Chords is a browser extension which will stream music according to the mood of the user.
+[TOC]
+
+Chords is a browser extension which will stream music according to the mood of the user.
 
 ## Technology Stack used:
 
