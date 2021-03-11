@@ -7,6 +7,7 @@
 [![Forks](https://img.shields.io/github/forks/Ayush-projects/chords?style=social)](https://github.com/Ayush-projects/chords/network/members) 
 [![Stars](https://img.shields.io/github/stars/Ayush-projects/chords?style=social)](https://github.com/Ayush-projects/chords/stargazers)
 [![License](https://img.shields.io/github/license/Ayush-projects/chords)](https://github.com/Ayush-projects/chords/blob/main/LICENSE)
+
  Chords is a browser extension which will stream music according to the mood of the user.
 
 ## Technology Stack used:
