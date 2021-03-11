@@ -20,11 +20,13 @@ privacy concerns. NodeJs server will serve as backend and will stream music eith
 
 ## Table Of Contents
 
-[How To Contribute](https://ayush-addhyan.medium.com/how-to-contribute-to-open-source-d4e6bded1770 "How To Contribute")<br>
-[Frontend FlowChart](/Documentation/FrontEndFlowChart.md "Frontend FlowChart")<br>
-[Backend FlowChart](/Documentation/BackendFlowChart.md "Backend FlowChart")<br>
-[Project FlowChart](/Documentation/ProjectFlowChart.md "Project FlowChart")<br>
-[Frontend Setup](/Documentation/FrontEndSetup.md "Frontend Setup")<br>
+### [How To Contribute](https://ayush-addhyan.medium.com/how-to-contribute-to-open-source-d4e6bded1770 "How To Contribute")<br>
+### [Frontend FlowChart](/Documentation/FrontEndFlowChart.md "Frontend FlowChart")<br>
+When users open their browser a background script will start running. The background script is a script running in the background to handle the majority of browser events that content scripts cannot. Content scripts are purely the content of each page. This background script takes input events on every page the user opened and keeps track of every word and pushes it into a stack. These words are fed as input to the Machine learning model. ML model will process this data and created mood labels. These labels will be stored locally in the browser and get refreshed after the fixed time interval. When a user enables Chords music player, the most recent mood is sent to the server and the server responds by sending the right music track according to the request. So the music will be playing.
+
+### [Backend FlowChart](/Documentation/BackendFlowChart.md "Backend FlowChart")<br>
+### [Project FlowChart](/Documentation/ProjectFlowChart.md "Project FlowChart")<br>
+### [Frontend Setup](/Documentation/FrontEndSetup.md "Frontend Setup")<br>
 
 
 
