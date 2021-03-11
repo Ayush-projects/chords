@@ -26,7 +26,7 @@ When users open their browser a background script will start running. The backgr
 
 ### [Backend FlowChart](/Documentation/BackendFlowChart.md "Backend FlowChart")<br>
 ### [Project FlowChart](/Documentation/ProjectFlowChart.md "Project FlowChart")<br>
-### [Frontend Setup](/Documentation/FrontEndSetup.md "Frontend Setup")<br>
+[Frontend Setup](/Documentation/FrontEndSetup.md "Frontend Setup")<br>
 
 
 
