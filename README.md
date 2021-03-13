@@ -38,3 +38,17 @@ privacy concerns. NodeJs server will serve as backend and will stream music eith
 ## Resources
 
 Read the article about open source contribution - https://ayush-addhyan.medium.com/how-to-contribute-to-open-source-d4e6bded1770
+## Contributors:
+
+### Credits goes to these people:✨
+
+<table>
+	<tr>
+		<td>
+ <a href="https://github.com/Ayush-projects/chords/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Ayush-projects/chords" />
+</a>
+		</td>
+	</tr>
+</table>
+
