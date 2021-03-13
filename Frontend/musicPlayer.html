@@ -1,64 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" href="icons/icon16.png">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
-    <title>Chords</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" href="icons/icon16.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Chords</title>
 </head>
+
 <body>
-<div class="main">
-<div class="music">
-    <h2 id="track-name">Duniya</h2>
-    <h3 id="artist">Nish</h3>
-    <div class="image">
+  <div class="main">
+    <div class="music">
+      <h2 id="track-name">Duniya</h2>
+      <h3 id="artist">Nish</h3>
+      <div class="image">
         <img src="test-images/1.jpg" id="img">
-      <audio src="test-music/1.mp3" controls style="display: none;" autoplay></audio>
-      <div class="progressbar_container" id="progressbar_container">
-       <div class="progress_duration_meter">
-       <div id="current_time">0:00</div>
-       <div id="duration">2:44</div>
+        <audio src="test-music/1.mp3" controls style="display: none;" autoplay></audio>
+        <div class="progressbar_container" id="progressbar_container">
+          <div class="progress_duration_meter">
+            <div id="current_time">0:00</div>
+            <div id="duration">2:44</div>
 
 
-       </div>
-       <div class="progress_div" id="progress_div">
+          </div>
+          <div class="progress_div" id="progress_div">
             <div class="progress" id="progress"></div>
 
-       </div>
+          </div>
 
 
 
 
 
+
+        </div>
+        <div class="controls">
+          <i class="fas fa-backward" id="prev" title="Previous"></i>
+          <i class="fas fa-play main-button" id="play" title="Pause"></i>
+          <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+        <div class="text-block">
+          <span>
+            <a href="#">
+              <i class="fa fa-twitter-square" aria-hidden="true" style='font-size:40px;color:white'></i>
+            </a>
+          </span>
+
+          <span>
+            <a href=" #">
+              <i class="fa fa-facebook-square" aria-hidden="true" style='font-size:40px;color:white'></i>
+            </a>
+          </span>
+          <span>
+            <a href=" #">
+              <i class='fab fa-discord' style='font-size:40px;color:white'></i>
+            </a>
+          </span>
+        </div>
 
       </div>
-      <div class="controls">
-        <i class="fas fa-backward" id="prev" title="Previous"></i>
-        <i class="fas fa-play main-button" id="play" title="Pause"></i>
-        <i class="fas fa-forward" id="next" title="Next"></i>
-      </div>
+
     </div>
-    
-
-</div>
-</div>
-
-
-
-
-
-
-
-</div>
+  </div>
+  </div>
 
 
 
@@ -79,6 +95,7 @@
 
 
 
-<script src="musicPlayerScript.js"></script>
+  <script src=" musicPlayerScript.js"></script>
 </body>
+
 </html>
