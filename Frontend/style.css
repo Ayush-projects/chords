@@ -30,6 +30,7 @@ html {
 }
 
 .music #track-name {
+     font-family: 'Redressed', cursive;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     word-spacing: 0.5rem;
@@ -41,6 +42,7 @@ html {
 }
 
 .music #artist{
+    font-family: 'Akaya Telivigala', cursive;
     color: #cccaca;
     text-transform: capitalize;
     letter-spacing: 0.1rem;
