@@ -32,6 +32,7 @@ privacy concerns. NodeJs server will serve as backend and will stream music eith
 #### [Backend FlowChart](/Documentation/BackendFlowChart.md "Backend FlowChart")<br>
 #### [Project FlowChart](/Documentation/ProjectFlowChart.md "Project FlowChart")<br>
 #### [Frontend Setup](/Documentation/FrontEndSetup.md "Frontend Setup")<br>
+#### [Code of Conduct](/Documentation/code_of_conduct.md "Code of Conduct")<br>
 
 
 
