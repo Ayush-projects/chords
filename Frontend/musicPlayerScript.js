@@ -22,6 +22,17 @@ image.src = "/test-images/"+songs.image+".jpg";
 music.src = "/test-music/" + songs.name +".mp3";
     
 }
+window.onload=function()
+{
+var volumeControl = document.getElementById('vol-control');
+
+var setVolume = function(){
+    music.volume = this.value / 100;
+};
+
+volumeControl.addEventListener('change',setVolume);
+volumeControl.addEventListener('input',setVolume);
+}
 
 loadsong(songs[0]);
 window.onload = image.classList.add("anime");

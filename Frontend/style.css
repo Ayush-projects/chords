@@ -28,6 +28,16 @@ html {
     padding: 3rem;
     text-align: center;
 }
+input[type="range"]{
+    cursor:pointer;
+    width:1em;
+    height:15em;
+    margin-top: 1em;
+    -webkit-appearance: slider-vertical;
+     vertical-align: bottom;
+    float: left;
+   
+}
 .music #track-name {
      font-family: 'Redressed', cursive;
     text-transform: uppercase;
