@@ -50,6 +50,7 @@ html {
     margin-bottom: 4rem;
     font-weight: 300;
 }
+
 input[type="range"]{
     cursor:pointer;
     width:1em;
@@ -60,7 +61,6 @@ input[type="range"]{
     float: left;
    
 }
-
 .image {
     width: 25rem;
     height: 25rem;
