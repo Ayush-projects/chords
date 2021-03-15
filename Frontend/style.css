@@ -51,6 +51,16 @@ html {
     font-weight: 300;
 }
 
+input[type="range"]{
+    cursor:pointer;
+    width:1em;
+    height:15em;
+    margin-top: 1em;
+    -webkit-appearance: slider-vertical;
+     vertical-align: bottom;
+    float: left;
+   
+}
 .image {
     width: 25rem;
     height: 25rem;
