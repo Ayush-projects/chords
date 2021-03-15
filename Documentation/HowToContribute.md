@@ -39,7 +39,7 @@ Type command **git remote add upstream *parent repository link*** .
 Now , to get an updated version locally, Type command **git pull upstream main**
 ![image](https://user-images.githubusercontent.com/62644568/111194110-dd7c2000-85e0-11eb-8310-ab91abebc3d6.png)
 
->After following all the steps mentioned above , your local environment should look like this.you can see you the updated version of the project.
+>After following all the steps mentioned above , your local environment should look like this.You can see you the updated version of the project.
 
 ![image](https://user-images.githubusercontent.com/62644568/111194577-5a0efe80-85e1-11eb-86d3-e9bf39633f95.png)
 
@@ -51,11 +51,30 @@ It is adviced to create a **branch** to fix the bugs or add features.The new bra
 ![image](https://user-images.githubusercontent.com/62644568/111197143-1ec1ff00-85e4-11eb-8c05-da7e93a1bb64.png)
 ###### - You can always check the current branch you are working in by comman **git branch**
 ![image](https://user-images.githubusercontent.com/62644568/111197363-66488b00-85e4-11eb-9265-126c48328b34.png)
-> *  (*) hows the active branch
+> *  (*) Shows the active branch
+
 - **Step 7**
 ###Fix the bug
 
 - **Step 8**
-#####Prepare to deploy your local changes to the main project by following the steps given below. 
+#####Stage and commit your changes before you push them.
 >*  Type **git add .** to stage the files first.
 >*  Type **git -m “Typo error fixed(message)** to commit.
+![image](https://user-images.githubusercontent.com/62644568/111199808-128b7100-85e7-11eb-889b-5407b590e93c.png)
+
+- **Step 9**
+Now, push the changes to the repository.
+>Type command  **git push origin branch_name**
+
+![image](https://user-images.githubusercontent.com/62644568/111201204-8ed28400-85e8-11eb-8e87-9f483cffa69c.png)
+
+- **Step 10**
+So, you can request the project administrator to review the changes and add them to the main repo of the project. So, you have to create a pull request for the project administrator. Create a pull request, by clicking compare and pull request.
+![image](https://user-images.githubusercontent.com/62644568/111202080-7ca51580-85e9-11eb-9f36-c971ea742804.png)
+
+#### Now, the project administrator would be able to review the pull request and can merge it into the main branch.
+
+>Make sure that whenever you are working on a bug, it(bug) should be there in the updated version, there might be a possibility that someone else has fixed the bug in the updated version.**Do not waste your time**
+
+#Congrats
+###You are all set to become a contributor.
