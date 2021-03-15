@@ -13,8 +13,17 @@
         "default_icon": "./icons/icon16.png",
         "default_popup": "index.html"
     },
+    
+   "content_scripts":[
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["content.js"]
+        }
+    ],
+
+    "background":{
+        "scripts":[ "background.js"]
+    },
+
     "permissions": ["storage", "activeTab", "declarativeContent"]
-
-
-
 }
