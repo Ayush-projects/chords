@@ -2,6 +2,7 @@
     margin: auto;
     padding: 0%;
 }
+
 *::before,
 *::after {
     margin: 0;
@@ -183,23 +184,18 @@ img {
 }
 
 #current_time {
-<<<<<<< HEAD
-    color:rgb(236, 227, 227);
-}
-
-.text-block {
-    align-content: center;
-    color: white;
-    margin-top: 5%;
-    position: absolute;
-    margin-left: 10%;
-    width: 35rem;
-    height: 5%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 7);
-    display: flex;
-  }
-=======
     color: rgb(236, 227, 227);
 }
->>>>>>> 3fc4a28cc0d715b017a7f4c597b2b8af3bc9b8cd
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex h2{
+    text-align: center;
+}
+
+.favstyle {
+    color: red;
+    font-size: 25px;
+  }
