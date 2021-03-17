@@ -137,3 +137,29 @@ music.addEventListener('timeupdate', (event) => {
 
 
 })
+
+function favFunction() {
+	var element = document.getElementById("favDIV");
+  
+	if (element.classList) { 
+	  element.classList.toggle("favstyle");
+	} else {
+	  var classes = element.className.split(" ");
+	  var i = classes.indexOf("favstyle");
+  
+	  if (i >= 0) 
+		classes.splice(i, 1);
+	  else 
+		classes.push("favstyle");
+		element.className = classes.join(" "); 
+	}
+  }
+
+  function speakFunction() {
+	var x = document.getElementById("speakDIV");
+	if (x.style.display === "none") {
+	  x.style.display = "block";
+	} else {
+	  x.style.display = "none";
+	}
+  }
