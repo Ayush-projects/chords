@@ -49,15 +49,13 @@ It is adviced to create a **branch** to fix the bugs or add features.The new bra
 ###### - Type command **git branch *branch_name*** to create branch.
 ###### - Type command **git checkout *branch_name***to enter in that branch
 ![image](https://user-images.githubusercontent.com/62644568/111197143-1ec1ff00-85e4-11eb-8c05-da7e93a1bb64.png)
-###### - You can always check the current branch you are working in by comman **git branch**
+###### - You can always check the current branch you are working in by command **git branch**
 ![image](https://user-images.githubusercontent.com/62644568/111197363-66488b00-85e4-11eb-9265-126c48328b34.png)
 > *  (*) Shows the active branch
 
-- **Step 7**
-###Fix the bug
+- **Step 7** Fix the bug
 
-- **Step 8**
-#####Stage and commit your changes before you push them.
+- **Step 8** Stage and commit your changes before you push them.
 >*  Type **git add .** to stage the files first.
 >*  Type **git -m “Typo error fixed(message)** to commit.
 ![image](https://user-images.githubusercontent.com/62644568/111199808-128b7100-85e7-11eb-889b-5407b590e93c.png)
