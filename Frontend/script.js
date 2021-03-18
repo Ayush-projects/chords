@@ -1,3 +1,3 @@
-setTimeout(function(){
-window.open("musicPlayer.html");
-},1000)
+setTimeout(function () {
+	window.open("musicPlayer.html");
+}, 1000)
