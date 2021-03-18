@@ -59,7 +59,7 @@ It is adviced to create a **branch** to fix the bugs or add features.The new bra
 - **Step 8**
 #####Stage and commit your changes before you push them.
 >*  Type **git add .** to stage the files first.
->*  Type **git commit -m “Typo error fixed(message)** to commit.
+>*  Type **git commit -m "Typo error fixed(message)"** to commit.
 ![image](https://user-images.githubusercontent.com/62644568/111199808-128b7100-85e7-11eb-889b-5407b590e93c.png)
 
 - **Step 9**
