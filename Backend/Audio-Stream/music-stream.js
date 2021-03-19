@@ -3,7 +3,7 @@ const app = express();
 const fs = require('fs');
 const helmet  = require('helmet');
 const limitModule = require('./rateLimiter');
-const session = require('express-session')
+const session = require('express-session');
 app.set('trust proxy', 1);
 app.use(helmet());
 
@@ -50,6 +50,7 @@ app.use(session({
     secret: "s3Cur3",
     cookie: {
         httpOnly: true,
+        secure : true
     },
     resave: true,
     saveUninitialized: true
