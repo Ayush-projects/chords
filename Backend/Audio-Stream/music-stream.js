@@ -1,8 +1,16 @@
 const express = require('express');
-const app = express()
+const app = express();
 const fs = require('fs');
-app.get('/' , (req, res)=>{
-    res.sendFile(__dirname+"/index.html");
+const helmet  = require('helmet');
+const limitModule = require('./rateLimiter');
+const session = require('express-session')
+app.set('trust proxy', 1);
+app.use(helmet());
+
+
+
+app.get('/' ,limitModule,  (req, res)=>{
+    res.sendFile(__dirname+"/index.html");      
 })
 
 
@@ -36,9 +44,13 @@ app.get('/audio', (req, res)=>{
 audioStream.pipe(res);
 
 
-
-
-
-
-
 })
+
+app.use(session({
+    secret: "s3Cur3",
+    cookie: {
+        httpOnly: true,
+    },
+    resave: true,
+    saveUninitialized: true
+}));
