@@ -35,25 +35,25 @@ html {
 }
 
 .music #track-name {
-     font-family: 'Redressed', cursive;
-    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform:capitalize;
     letter-spacing: 0.2rem;
     word-spacing: 0.5rem;
     color: #ebe3e1;
     margin: 2rem 0 0.5rem 0;
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 300;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 .music #artist{
-    font-family: 'Akaya Telivigala', cursive;
+    font-family:'Akaya Telivigala', cursive;
     color: #cccaca;
-    text-transform: capitalize;
+    text-transform:capitalize;
     letter-spacing: 0.1rem;
-    font-size: 2rem;
-    margin-bottom: 4rem;
-    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    font-weight: 500;
 }
 
 input[type="range"]{
