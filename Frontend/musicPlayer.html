@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-   
-   <!-- header starts -->
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!-- style.css For Styling -->
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-         integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
-         crossorigin="anonymous" />
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
-      <link rel="icon" href="icons/icon16.png">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
-      <title>Chords</title>
+<!-- header starts -->
 
-   </head>
-   <!-- header ends -->
+<head>
+   <!-- Required meta tags -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <body>
-      <!-- main class starts -->
-      <div class="main">
-         <div class="music">
+   <!-- style.css For Styling -->
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous" />
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+   <link rel="icon" href="icons/icon16.png">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+   <title>Chords</title>
+
+</head>
+<!-- header ends -->
+
+<body>
+   <!-- main class starts -->
+   <div class="main">
+      <div class="music">
+         <span class="flex">
+               <i onclick="speakFunction()" class="fa fa-volume-up" aria-hidden="true" style="font-size: 30px; color: white;"></i>
             <h2 id="track-name">Duniya</h2>
-            <h3 id="artist">Nish</h3>
-            <div class="image">
-               <img src="test-images/1.jpg" id="img">
-               <audio src="test-music/1.mp3" controls style="display: none;" autoplay></audio>
-               <div class="progressbar_container" id="progressbar_container">
-                  <div class="progress_duration_meter">
-                     <div id="current_time">0:00</div>
-                     <div id="duration">2:44</div>
-                  </div>
-                  <div class="progress_div" id="progress_div">
-                     <div class="progress" id="progress"></div>
-                  </div>
+            <div id="favDIV">
+               <i onclick="favFunction()" class="fa fa-heart" aria-hidden="true" style="font-size: 30px;"></i>
+            </div>
+         </span>
+         <h3 id="artist">Nish</h3>
+         <div id="speakDIV">
+         <input class="volume" id="vol-control" type="range" step="1" min="0" max="100" value="25">
+         </div>
+         <div class="image">
+            <img src="test-images/1.jpg" id="img">
+            <audio src="test-music/1.mp3" controls style="display: none;" autoplay></audio>
+            <div class="progressbar_container" id="progressbar_container">
+               <div class="progress_duration_meter">
+                  <div id="current_time">0:00</div>
+                  <div id="duration">2:44</div>
                </div>
-               <div class="controls">
-                  <i class="fas fa-backward" id="prev" title="Previous"></i>
-                  <i class="fas fa-play main-button" id="play" title="Pause"></i>
-                  <i class="fas fa-forward" id="next" title="Next"></i>
+               <div class="progress_div" id="progress_div">
+                  <div class="progress" id="progress"></div>
                </div>
             </div>
-         </div>        
+            <div class="controls">
+               <i class="fas fa-backward" id="prev" title="Previous"></i>
+               <i class="fas fa-play main-button" id="play" title="Pause"></i>
+               <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+         </div>
       </div>
-      <!-- main class ends -->
+   </div>
+   <!-- main class ends -->
 
-      <script src="musicPlayerScript.js"></script>
+   <script src="musicPlayerScript.js"></script>
 
-   </body>
+</body>
 
 </html>

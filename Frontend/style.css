@@ -1,3 +1,8 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+
 *::before,
 *::after {
     margin: 0;
@@ -10,7 +15,7 @@ html {
 }
 
 .main {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: grid;
     place-items: center;
@@ -30,27 +35,37 @@ html {
 }
 
 .music #track-name {
-     font-family: 'Redressed', cursive;
-    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform:capitalize;
     letter-spacing: 0.2rem;
     word-spacing: 0.5rem;
     color: #ebe3e1;
     margin: 2rem 0 0.5rem 0;
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 300;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 .music #artist{
-    font-family: 'Akaya Telivigala', cursive;
+    font-family:'Akaya Telivigala', cursive;
     color: #cccaca;
-    text-transform: capitalize;
+    text-transform:capitalize;
     letter-spacing: 0.1rem;
-    font-size: 2rem;
-    margin-bottom: 4rem;
-    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    font-weight: 500;
 }
 
+input[type="range"]{
+    cursor:pointer;
+    width:1em;
+    height:15em;
+    margin-top: 1em;
+    -webkit-appearance: slider-vertical;
+     vertical-align: bottom;
+    float: left;
+   
+}
 .image {
     width: 25rem;
     height: 25rem;
@@ -171,3 +186,16 @@ img {
 #current_time {
     color: rgb(236, 227, 227);
 }
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex h2{
+    text-align: center;
+}
+
+.favstyle {
+    color: red;
+    font-size: 25px;
+  }

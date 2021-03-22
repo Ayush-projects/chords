@@ -31,6 +31,17 @@ const loadsong = (songs) => {
 	music.src = "/test-music/" + songs.name + ".mp3";
 
 }
+window.onload=function()
+{
+var volumeControl = document.getElementById('vol-control');
+
+var setVolume = function(){
+    music.volume = this.value / 100;
+};
+
+volumeControl.addEventListener('change',setVolume);
+volumeControl.addEventListener('input',setVolume);
+}
 
 loadsong(songs[0]);
 window.onload = image.classList.add("anime");
@@ -41,7 +52,9 @@ const pauseMusic = () => {
 	music.pause();
 	isPlaying = false;
 	if (!isPlaying)
-		play.classList.replace('fa-play', 'fa-pause');
+		{play.classList.replace('fa-pause', 'fa-play');
+		play.title="Play";
+}
 	image.classList.remove("anime");
 }
 //For Playing
@@ -49,7 +62,9 @@ var playMusic = () => {
 	isPlaying = true;
 	music.play();
 	if (isPlaying)
-		play.classList.replace('fa-pause', 'fa-play');
+		{play.classList.replace('fa-play', 'fa-pause');
+		play.title="Pause";
+}
 	image.classList.add("anime");
 }
 var songIndex = 0;
@@ -122,3 +137,29 @@ music.addEventListener('timeupdate', (event) => {
 
 
 })
+
+function favFunction() {
+	var element = document.getElementById("favDIV");
+  
+	if (element.classList) { 
+	  element.classList.toggle("favstyle");
+	} else {
+	  var classes = element.className.split(" ");
+	  var i = classes.indexOf("favstyle");
+  
+	  if (i >= 0) 
+		classes.splice(i, 1);
+	  else 
+		classes.push("favstyle");
+		element.className = classes.join(" "); 
+	}
+  }
+
+  function speakFunction() {
+	var x = document.getElementById("speakDIV");
+	if (x.style.display === "none") {
+	  x.style.display = "block";
+	} else {
+	  x.style.display = "none";
+	}
+  }
