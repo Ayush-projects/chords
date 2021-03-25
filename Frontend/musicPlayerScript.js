@@ -33,45 +33,44 @@ const loadsong = (songs) => {
 }
 window.onload=function()
 {
-var volumeControl = document.getElementById('vol-control');
-
-var setVolume = function(){
-    music.volume = this.value / 100;
-};
-
-volumeControl.addEventListener('change',setVolume);
-volumeControl.addEventListener('input',setVolume);
+	var volumeControl = document.getElementById('vol-control');
+	var setVolume = function(){
+    	music.volume = this.value / 100;
+	};
+	volumeControl.addEventListener('change',setVolume);
+	volumeControl.addEventListener('input',setVolume);
 }
 
 loadsong(songs[0]);
 window.onload = image.classList.add("anime");
 
-var isPlaying = false;
+var isPlaying = true;
 //For Pause
 const pauseMusic = () => {
 	music.pause();
 	isPlaying = false;
-	if (!isPlaying)
-		{play.classList.replace('fa-pause', 'fa-play');
+	if (!isPlaying) {
+		play.classList.replace('fa-pause', 'fa-play');
 		play.title="Play";
-}
+	}
 	image.classList.remove("anime");
 }
 //For Playing
 var playMusic = () => {
 	isPlaying = true;
 	music.play();
-	if (isPlaying)
-		{play.classList.replace('fa-play', 'fa-pause');
+	if (isPlaying) {
+		play.classList.replace('fa-play', 'fa-pause');
 		play.title="Pause";
-}
+	}
 	image.classList.add("anime");
 }
 var songIndex = 0;
 play.addEventListener('click', () => {
 	if (isPlaying) {
 		pauseMusic();
-	} else {
+	} 
+	else {
 		playMusic();
 	}
 })
