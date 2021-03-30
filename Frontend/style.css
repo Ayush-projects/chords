@@ -27,11 +27,14 @@ html {
 .music {    
     width: 35rem;
     height: 50rem;
-    background-color: #044d69;
+    background-image: linear-gradient(to bottom right,#1e3799,#4834d4,red, yellow);
     border-radius: 2rem;
     box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
     padding: 3rem;
     text-align: center;
+    transform-style: preserve-3d;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+
 }
 
 .music #track-name {
