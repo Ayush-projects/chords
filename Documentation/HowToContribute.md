@@ -74,5 +74,5 @@ So, you can request the project administrator to review the changes and add them
 
 >Make sure that whenever you are working on a bug, it(bug) should be there in the updated version, there might be a possibility that someone else has fixed the bug in the updated version.**Do not waste your time**
 
-#Congrats
+#Congratulations!
 ###You are all set to become a contributor.
