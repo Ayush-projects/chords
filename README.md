@@ -38,7 +38,7 @@ privacy concerns. NodeJs server will serve as backend and will stream music eith
 
 ## Resources
 
-Read the article about open source contribution - https://ayush-addhyan.medium.com/how-to-contribute-to-open-source-d4e6bded1770
+Read the article about open source contribution - https://ayush-addhyayan.medium.com/how-to-contribute-to-open-source-d4e6bded1770
 
 ## Connect with us
 
